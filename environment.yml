@@ -1,0 +1,21 @@
+name: un_debates_sdg_analysis
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - seaborn
+  - jupyterlab
+  - nltk
+  - spacy
+  - tqdm
+  - requests
+  - openpyxl
+  - pip
+  - pip:
+    - wordcloud
+    - textblob
