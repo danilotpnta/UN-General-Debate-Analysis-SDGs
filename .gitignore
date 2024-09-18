@@ -168,3 +168,5 @@ data/raw/*
 !data/raw/.gitkeep
 
 .DS_Store
+
+data/processed/UNGDC_1946-2023_processed.parquet

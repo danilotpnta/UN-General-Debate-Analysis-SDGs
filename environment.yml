@@ -14,8 +14,9 @@ dependencies:
   - spacy
   - tqdm
   - requests
-  - openpyxl
+  - openpyxl # for reading .xlsx files
   - pip
   - pip:
     - wordcloud
     - textblob
+    - pyarrow
