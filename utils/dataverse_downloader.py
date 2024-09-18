@@ -32,7 +32,6 @@ def remove_resource_files(output_dir):
                 file_path = os.path.join(root, file)
                 os.remove(file_path)
 
-
 # Function to rename directories
 def rename_directory(old_name, new_name):
     old_path = os.path.join(old_name)
@@ -56,7 +55,7 @@ def uncompress_tgz(file_path, output_dir):
         print(f"Failed to uncompress {file_path}: {e}")
 
 # Main function to fetch dataset metadata and download all files
-def download_dataset(dataset_doi="10.7910/DVN/0TJX8Y", dataverse_server="dataverse.harvard.edu", output_dir="data/raw"):
+def download_dataset(dataset_doi="10.7910/DVN/0TJX8Y", dataverse_server="dataverse.harvard.edu", output_dir=os.path.join('data', 'raw')):
 
     print("Downloading dataset...")
 
