@@ -166,6 +166,7 @@ data/raw/*
 
 # But don't ignore the data/raw/.gitkeep file
 !data/raw/.gitkeep
+!data/raw/UcdpPrioConflict_v24_1.xlsx
 
 .DS_Store
 
