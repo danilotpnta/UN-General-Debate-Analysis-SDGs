@@ -61,3 +61,6 @@ def download_dataset(dataset_doi="10.7910/DVN/0TJX8Y", dataverse_server="dataver
                 download_file(file_download_url, output_dir, file_name)
     else:
         print(f"Failed to fetch dataset metadata: {response.status_code}")
+
+if __name__ == "__main__":
+    download_dataset()

@@ -1,4 +1,4 @@
-name: un_debates_sdg_analysis
+name: debates_analysis
 channels:
   - defaults
   - conda-forge
