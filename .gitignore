@@ -173,3 +173,5 @@ data/raw/*
 
 # too heavy ignore it
 data/processed/UNGDC_1946-2023_processed.parquet
+data/processed/__MACOSX/._un_tf_idf.parquet
+data/processed/un_tf_idf.parquet
