@@ -161,13 +161,15 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+.DS_Store
+
 # Ignore everything in the data/raw directory
 data/raw/*
 
 # But don't ignore the data/raw/.gitkeep file
 !data/raw/.gitkeep
-!data/raw/UcdpPrioConflict_v24_1.xlsx
+!data/raw/UcdpPrioConflict_v24_1.csv
+!data/raw/UNSD_Methodology.csv
 
-.DS_Store
-
+# too heavy ignore it
 data/processed/UNGDC_1946-2023_processed.parquet

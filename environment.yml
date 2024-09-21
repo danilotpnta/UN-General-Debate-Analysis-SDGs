@@ -19,4 +19,4 @@ dependencies:
   - pip:
     - wordcloud
     - textblob
-    - pyarrow
+    - xlrd
