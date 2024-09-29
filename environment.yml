@@ -20,3 +20,9 @@ dependencies:
     - wordcloud
     - textblob
     - xlrd
+    - networkx
+    - pycountry
+    - torch
+    - transformers
+    - gensim
+    - vaderSentiment
